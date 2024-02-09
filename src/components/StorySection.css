@@ -1,0 +1,59 @@
+.story-section {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 210px;
+    padding-top: 170px;
+    position: relative;
+}
+
+.story-section .left-bg {
+    left: 0;
+    margin-top: -95px;
+    position: absolute;
+    top: 50%;
+}
+
+.story_row {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+    position: static;
+}
+
+.story-section .text-col {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.story-section .text-col .inner {
+    display: block;
+    padding-right: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.story-section .text-col .title-box {
+    margin-bottom: var(--margin-bottom-30);
+}
+
+.subtitle h2 {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: rgb(230, 191, 133);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 601;
+}
+
+.title-box .pattern-image img {
+    max-width: 100px;
+}
+
+.title-box .text_1 {
+    font-size: 60px;
+    font-family: initial;
+}
