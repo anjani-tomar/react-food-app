@@ -2,6 +2,8 @@ import React from 'react'
 import './OfferSection.css';
 import './boot.css';
 import './animation.css';
+import './responsive.css';
+
 import {bouncingImg1, bouncingImg2, logo1, logo2, mg1, mg2, mg3} from '../assets';
 
 const OfferSection = () => {
@@ -32,7 +34,7 @@ const OfferSection = () => {
                                 <img src={mg3}/>
                             </div>
                             <h2>Breakfast</h2>
-                            <p>view menu</p>
+                            <div class="more-link"><a href="#">view menu</a></div>
                             
                         </div>
                     </div>
@@ -42,7 +44,8 @@ const OfferSection = () => {
                                 <img src={mg2}/>
                             </div>
                             <h2>Appetizers</h2>
-                            <p>view menu</p>
+                            <div class="more-link"><a href="#">view menu</a></div>
+                            
                         </div>
                     </div>
                     <div className='offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12'>
@@ -51,7 +54,7 @@ const OfferSection = () => {
                                 <img src={mg1}/>
                             </div>
                             <h2>Drinks</h2>
-                            <p>view menu</p>
+                            <div class="more-link"><a href="#">view menu</a></div>
                         </div>
                     </div>
                 </div>

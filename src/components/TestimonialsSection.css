@@ -1,0 +1,85 @@
+.testimonials-section {
+    background: black;
+    padding-bottom: 340px;
+    padding-top: 120px;
+    position: relative;
+}
+
+.testimonials-section .image-layer {
+    background-image: url(https://mediacity.co.in/delici/static/media/image-2.a39c46e803cccd321e96.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.tstmonl-sec1 {
+    width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+}
+
+.testimonials-section .separator {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.testimonials-section .separator span {
+    border: 1px solid rgb(211, 181, 125);
+    display: inline-block;
+    height: 8px;
+    margin: 0 1px;
+    position: relative;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    vertical-align: middle;
+    width: 8px;
+}
+
+.tstmonl-sec1 .quotes {
+    font-family: initial;
+    font-size: 70px;
+    line-height: .7em;
+    position: relative;
+    color: white;
+}
+
+.tstmonl-sec1 p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: initial;
+}
+
+.tstmonl-sec {
+    margin: 0 auto;
+    max-width: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide {
+    background-color: transparent;
+}
+
+.testimonials-section .tstmonl-sec img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: inline;
+}
+
+.testimonials-section .swiper-button-prev,
+.testimonials-section .swiper-button-next {
+    display: none;
+}

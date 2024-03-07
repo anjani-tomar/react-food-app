@@ -1,0 +1,84 @@
+.why-us {
+    background: rgb(0, 0, 0);
+    padding-bottom: 60px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.why-us .left-bg {
+    bottom: 80px;
+    left: 0;
+    position: absolute;
+}
+
+.why-us .right-bg {
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+
+.why-us .row {
+    margin: 0 -20px;
+}
+
+.why-us .row .why-block {
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.why-block .inner-box {
+    background: rgba(0, 0, 0, 0.148);
+    display: block;
+    min-height: 100%;
+    padding: 30px 20px 40px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.why-block .inner-box .icon-box {
+    display: block;
+    line-height: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-transition: all .5s ease;
+}
+
+.why-block .inner-box .icon-box img {
+    max-height: 80px;
+    position: relative;
+}
+
+.why-block .inner-box:hover .icon-box {
+    -webkit-transform: scale(-1) rotate(180deg);
+    transform: scale(-1) rotate(180deg);
+}
+
+.why-block h4 {
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+}
+
+.featured-links,
+.featured-links .outer-container,
+.why-block .text {
+    position: relative;
+}
+
+.why-block .text {
+    color: rgb(131, 127, 127);
+    font-size: 14px;
+}
+
+.why-us .why-block .inner-box {
+    border-radius: 58px;
+    background-image: linear-gradient(#800006 0%, #000 100%);
+    border-top: 4px solid #450b0b;
+    box-shadow: 0 2px 5px 0px #050505, 0px 3px 5px 0px #850000;
+    transition: .8s cubic-bezier(.22, .75, 1, 1);
+}
+
+.why-us .why-block .inner-box:hover {
+    box-shadow: 0 8px 15px rgb(141, 4, 4);
+}

@@ -1,5 +1,5 @@
 .story-section {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.677);
     padding-bottom: 210px;
     padding-top: 170px;
     position: relative;
@@ -31,13 +31,20 @@
     text-align: center;
 }
 
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
+@media only screen and (max-width: 1199px) {
+    .story-section .left-bg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .story-section .left-bg {
+        display: none;
+    }
 }
 
 .story-section .text-col .title-box {
-    margin-bottom: var(--margin-bottom-30);
+    margin-bottom: 30px;
 }
 
 .subtitle h2 {
@@ -53,7 +60,291 @@
     max-width: 100px;
 }
 
-.title-box .text_1 {
+.title-box .texx2 {
     font-size: 60px;
     font-family: initial;
+}
+
+.text-col .bk-title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.story-section .booking-info .bk-no {
+    color: rgb(244, 202, 122);
+    font-size: 24px;
+    line-height: 1em;
+    margin-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.story-section .booking-info .bk-no a {
+    color: rgb(237, 197, 123);
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.text-col .bk-no a:before {
+    position: absolute;
+    content: '';
+    left: 5px;
+    right: 5px;
+    bottom: -8px;
+    height: 4px;
+    opacity: 0;
+    transform: scaleX(.2);
+    transition: all .3s ease 0s;
+    border-bottom: 1px solid rgb(204, 177, 127);
+    border-top: 1px solid rgb(192, 167, 123);
+}
+
+.text-col .bk-no a:hover::before {
+    opacity: 1;
+    transform: scale(0.6, 1);
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.btn-style-two::before {
+    background: rgb(204, 177, 127);
+    border-radius: 50%;
+    content: "";
+    height: 200%;
+    left: 50%;
+    position: absolute;
+    top: -200%;
+    transform: translateX(-50%);
+    transition-duration: .7s;
+    width: 200%;
+    z-index: 1;
+}
+
+.btn-style-two:hover::before {
+    top: -40%;
+}
+
+.btn-style-two {
+    background: transparent;
+    border: 2px solid rgb(204, 177, 127);
+    border-radius: 0;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    overflow: hidden;
+    padding: 16px 45px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    vertical-align: top;
+}
+
+.btn-style-two .btn-wrap {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-style-two .btn-wrap .text-one {
+    color: rgb(204, 177, 127);
+    transition: all .3s ease;
+    display: block;
+    position: relative;
+}
+
+.btn-style-two:hover .btn-wrap .text-two {
+    color: #0e0d0b;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-style-two .btn-wrap .text-two {
+    position: absolute;
+    top: 100%;
+    display: block;
+    transition: all .3s ease;
+    color: black;
+}
+
+
+/* ===========================================  image section  ================================ */
+
+@media only screen and (max-width: 1199px) {
+    .story-section .image-col .round-stamp-circle {
+        right: 280px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .story-section .image-col .round-stamp-circle {
+        right: 163px;
+    }
+}
+
+.story-section .image-col {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInRigh {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.story-section .image-col .inner {
+    display: block;
+    position: relative;
+}
+
+.story-section .image-col .round-stamp {
+    position: absolute;
+    top: -70px;
+    right: -140px;
+    z-index: 3;
+}
+
+.story-section .image-col .round-stamp-circle {
+    height: 120px;
+    width: 120px;
+    background: rgb(239, 212, 150);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.story-section .image-col .circle-text {
+    height: 118px;
+    width: 118px;
+    background: #000000eb;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    text-align: center;
+}
+
+.story-section .image-col .circle-text2 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.story-section .image-col .circle-since {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 601;
+    position: relative;
+}
+
+.story-section .image-col .circle-date {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    position: relative;
+}
+
+.round-stamp-circle img {
+    position: relative;
+    top: -15px;
+    height: 150px;
+    width: 150px;
+    left: -15px;
+}
+
+.story-section .image-col .round-stamp-circle img {
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-name: rotateme;
+    animation-timing-function: linear;
+}
+
+.story-section .image-col .images {
+    padding-left: 90px;
+    position: relative;
+}
+
+.story-section .image-col .images img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.story-section .image-col .images img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.story-section .image-col .images .image:nth-child(2)::before {
+    background: url(https://mediacity.co.in/delici/static/media/pattern-8.c0d26fdff7722980ba6f.svg) 50% repeat;
+    bottom: 0;
+    content: "";
+    left: 50%;
+    margin-left: -70px;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+
+.story-section .image-col .images .image:nth-child(2) {
+    bottom: -160px !important;
+    left: 0 !important;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: absolute !important;
+    top: auto !important;
+    width: 285px;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1199px) {
+    .story-section .image-col .images .image:nth-child(1) {
+        width: 374px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .story-section .image-col .images .image:nth-child(1) {
+        width: 374px;
+    }
+}
+
+.story-section .image-col .images .image:nth-child(1) {
+    width: 600px;
 }

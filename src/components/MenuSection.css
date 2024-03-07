@@ -1,0 +1,242 @@
+.menu-section {
+    background-color: rgba(0, 0, 0, 0.71);
+    overflow: hidden;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.menu-section .left-bg {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.menu-section .right-bg {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.menu-tabs {
+    position: relative;
+}
+
+.menu-tabs .buttons {
+    border-bottom: 1px solid rgba(245, 245, 245, 0.283);
+    border-top: 1px solid rgba(245, 245, 245, 0.294);
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.menu-tabs .buttons .tab-buttons {
+    position: relative;
+    text-align: center;
+}
+
+.menu-tabs .buttons .tab-buttons .tab-btn {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.menu-tabs .buttons .tab-buttons .tab-btn span {
+    color: rgba(255, 255, 255, 0.637);
+    font-family: cursive;
+}
+
+.menu-tabs .buttons .tab-buttons .tab-btn::before {
+    border-bottom: 1px solid wheat;
+    border-top: 1px solid wheat;
+    bottom: -3px;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all .3s ease;
+    width: 100%;
+}
+
+.menu-tabs .buttons .tab-buttons .tab-btn::after {
+    border: 1px solid wheat;
+    content: "";
+    height: 8px;
+    left: 100%;
+    margin-left: 36px;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 8px;
+}
+
+.menu-tabs .buttons .tab-buttons .tab-btn.active::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.tabs-box .tabs-content {
+    position: relative;
+}
+
+.tabs-box .tabs-content .active-tab {
+    display: block;
+}
+
+.tabs-box .tabs-content .tab {
+    display: none;
+    position: relative;
+}
+
+.menu-tabs .menu-col .inner {
+    display: block;
+    min-height: 100%;
+    padding-right: 80px;
+    position: relative;
+}
+
+.menu-tabs .dish-block {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.menu-tabs .dish-block .inner-box {
+    min-height: 100px;
+    padding-left: 120px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.menu-tabs .dish-block .dish-image {
+    background-color: rgb(234, 196, 127);
+    border-radius: 22px;
+    height: 100px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+
+.menu-tabs .dish-block .dish-image img {
+    border-radius: 10px;
+    display: block;
+    height: 100px;
+    position: relative;
+    transition: all .5s ease;
+    width: 100px;
+}
+
+.menu-tabs .dish-block .inner-box:hover .dish-image img {
+    opacity: .7;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.menu-tabs .dish-block .title {
+    font-family: cursive;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu-tabs .dish-block .title::before {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.122);
+    border-top: 1px solid rgba(255, 255, 255, 0.138);
+    content: "";
+    height: 6px;
+    left: 0;
+    margin-top: -3px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.menu-tabs .dish-block .title .ttl {
+    background-color: rgba(0, 0, 0, 0.624);
+    float: left;
+    padding-right: 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.menu-tabs .dish-block .title .ttl a {
+    color: rgba(255, 255, 255, 0.962);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.menu-tabs .dish-block .title .price {
+    background: rgba(0, 0, 0, 0.624);
+    color: rgb(238, 205, 144);
+    float: right;
+    font-size: 22px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.menu-tabs .dish-block .desc {
+    color: rgb(150, 141, 141);
+    font-size: 14px;
+    position: relative;
+}
+
+.menu-tabs .dish-block .desc a {
+    color: rgb(150, 141, 141);
+    text-decoration: none;
+}
+
+.menu-tabs .dish-block .title .ttl .s-info {
+    background: rgb(223, 193, 139);
+    color: rgba(0, 0, 0, 0.624);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding: 0 5px;
+    position: relative;
+}
+
+.menu-tabs .menu-col .inner .after {
+    border-right: 1px solid rgba(245, 245, 245, 0.283);
+    bottom: 50px;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.menu-tabs .menu-col:nth-child(2) .inner {
+    border-right: none;
+    padding-left: 80px;
+    padding-right: 0;
+}
+
+.menu-section .open-timing {
+    position: relative;
+    text-align: center;
+}
+
+.menu-section .open-timing .hours {
+    margin-bottom: 25px;
+    position: relative;
+    color: aliceblue;
+}
+
+.theme_color {
+    color: #e4c590;
+    margin-left: 7px;
+}

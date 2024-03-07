@@ -1,0 +1,265 @@
+.reserve-section {
+    position: relative;
+    background: rgb(0, 0, 0);
+}
+
+.reserve-section::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.reserve-section .outer-box {
+    margin-bottom: -270px;
+    position: relative;
+    top: -270px;
+    z-index: 1;
+    background-color: #000;
+    border-radius: 55px;
+}
+
+.reserve-section .outer-box>.row {
+    margin: 0;
+}
+
+.reserve-section .reserv-col {
+    padding: 0;
+    position: relative;
+}
+
+
+/* .reserve-section .reserv-col .inner {
+    background-color: black;
+    min-height: 100%;
+    padding: 75px 60px 60px 60px;
+    position: relative;
+} */
+
+.reserve-section .reserv-col .title {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.reserve-section .reserv-col .title h2 {
+    line-height: 1.2em;
+    font-size: 60px;
+    color: white;
+    font-family: initial;
+}
+
+.reserve-section .reserv-col .title a {
+    color: rgb(226, 193, 131);
+}
+
+.request-info {
+    color: white;
+}
+
+.default-form {
+    position: relative;
+}
+
+.default-form .field-inner {
+    display: block;
+    position: relative;
+}
+
+.reserve-section .reserv-col form .row .form-group {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.default-form .form-group input[type='text'] {
+    overflow: visible;
+    background-color: rgba(31, 30, 30, 0.664);
+    border: 1px solid #ffffff27;
+    border-radius: 0px;
+    color: #ffffffbd;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all .3s ease;
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.default-form .form-group input[type='text']:focus {
+    border-color: rgb(225, 191, 129);
+}
+
+.default-form .form-group textarea {
+    height: 135px;
+    resize: none;
+}
+
+.default-form .form-group textarea {
+    overflow: visible;
+    background-color: rgba(31, 30, 30, 0.664);
+    border: 1px solid #ffffff27;
+    border-radius: 0px;
+    color: #ffffffc0;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all .3s ease;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.default-form .form-group .link-box a {
+    width: 100%;
+    float: inherit;
+}
+
+.default-form .form-group .btn-style-two .btn-wrap {
+    float: inherit;
+}
+
+.reserve-section .reserv-col .inner {
+    background-color: black;
+    min-height: 100%;
+    padding: 75px 60px 60px 60px;
+    position: relative;
+    border-radius: 58px;
+    background-image: linear-gradient(#800006 0%, #000 100%);
+    border-top: 4px solid #450b0b;
+    box-shadow: 0 2px 5px 0px #050505, 0px 3px 5px 0px #850000;
+    transition: .8s cubic-bezier(.22, .75, 1, 1);
+    margin-right: 40px;
+}
+
+.reserve-section .reserv-col .inner:hover {
+    box-shadow: 0 8px 15px rgb(141, 4, 4);
+}
+
+.reserve-section .info-col {
+    background: url(https://mediacity.co.in/delici/static/media/pattern-2.dc00536f4043fe5c87ed.png) 0 0 repeat;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    border-radius: 55px;
+}
+
+.reserve-section .info-col .data {
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+.reserve-section .info-col .title {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.reserve-section .info-col .title h2 {
+    line-height: 1.2em;
+    font-size: 60px;
+    color: white;
+    font-family: initial;
+}
+
+.reserve-section .info-col .inner {
+    min-height: 100%;
+    padding: 75px 60px 60px 60px;
+    position: relative;
+    border-radius: 58px;
+    /* background-image: linear-gradient(#800006 0%, #000 100%); */
+    border-top: 4px solid #450b0b;
+    box-shadow: 0 2px 5px 0px #050505, 0px 3px 5px 0px #850000;
+    transition: .8s cubic-bezier(.22, .75, 1, 1);
+}
+
+.reserve-section .info-col .inner:hover {
+    box-shadow: 0 8px 15px rgb(141, 4, 4);
+}
+
+.reserve-section .info-col .booking-info {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.reserve-section .info-col .booking-info .bk-title {
+    font-weight: 700;
+    margin-bottom: 5px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+}
+
+.reserve-section .info-col .booking-info .bk-no {
+    color: rgb(244, 202, 122);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reserve-section .info-col .booking-info .bk-no a {
+    color: rgb(237, 197, 123);
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.info-col .bk-no a::before {
+    position: absolute;
+    content: '';
+    left: 5px;
+    right: 5px;
+    bottom: 2px;
+    height: 4px;
+    opacity: 0;
+    transform: scaleX(.2);
+    transition: all .3s ease 0s;
+    border-bottom: 1px solid rgb(204, 177, 127);
+    border-top: 1px solid rgb(192, 167, 123);
+}
+
+.info-col .bk-no a:hover::before {
+    opacity: 1;
+    transform: scale(0.9, 1);
+}
+
+.reserve-section .info-col .separator {
+    margin-bottom: 4px;
+    margin-top: 3px;
+    position: relative;
+    text-align: center;
+}
+
+.reserve-section .info-col .separator span {
+    border: 1px solid rgb(211, 181, 125);
+    display: inline-block;
+    height: 8px;
+    margin: 0 1px;
+    position: relative;
+    transform: rotate(45deg);
+    vertical-align: middle;
+    width: 8px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.reserve-section .info-col .info {
+    position: relative;
+}
+
+.reserve-section .info-col .info li {
+    color: rgba(255, 255, 255, 0.552);
+    line-height: 1.5em;
+    margin-bottom: 25px;
+    position: relative;
+    list-style: none;
+}
+
+.reserve-section .info-col .info li strong {
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+}

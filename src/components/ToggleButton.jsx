@@ -1,5 +1,6 @@
 // ToggleButton.js
 import React, { useState } from 'react';
+import './responsive.css';
 import './ToggleButton.css'; // Import CSS file for styling
 
 function ToggleButton() {
