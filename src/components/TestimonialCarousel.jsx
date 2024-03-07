@@ -22,17 +22,6 @@ const PrevArrow = (props) => {
   );
 };
 
-const TestimonialCarousel = () => {
-  const settings = {
-  
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
-  };
-
   return (
     <div className="carousel-wrapper">
       <Slider {...settings}>
@@ -84,22 +73,16 @@ const TestimonialCarousel = () => {
            <div className="pattern-image">
             <img src="https://mediacity.co.in/delici/static/media/separator.fc5405c5995258e079d7072ed26a6975.svg" alt="mySvgImage"/>
             </div>
-            <div className='text1'>Where every flavor<br/>the Seasons</div>
-            <p>Come with family & feel the joy of mouthwatering food</p>
-            <div className="link link-btn">
-            <a className="theme-btn btn-style-one clearfix" href=""
-            ><span className="btn-wrap"><span class="text-one">View our menu</span>
-            <span className="text-two">View our menu</span></span></a>
-            </div>
-        
+      <div className='next' onClick={nextSlide}>
+      <div className='right__icon'>
+        <FaAngleRight/>
+      </div>
           </div>
           <div className="book-btn"><a class="theme-btn" href="/delici">
         <span className="icon"  style={{ transform: 'rotate(90deg)' }}>
          <img src={img4}/>  </span><span class="txt">book a table</span></a>
          </div>
         </div>  
-      </Slider>
-    
     </div>
   );
 };
