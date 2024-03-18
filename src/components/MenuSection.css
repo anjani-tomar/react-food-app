@@ -240,3 +240,9 @@
     color: #e4c590;
     margin-left: 7px;
 }
+
+@media only screen and (max-width: 992px) {
+    .menu-col:nth-child(2) {
+        display: none;
+    }
+}

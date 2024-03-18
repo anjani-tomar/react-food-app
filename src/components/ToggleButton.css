@@ -1,64 +1,69 @@
-        /* ToggleButton.css */
-        
-        .hidden-bar-opener {
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 0;
-            margin: 0;
-        }
-        
-        .hamburger {
-            display: inline-block;
-            width: 30px;
-            height: 50px;
-            position: relative;
-            padding: 5px 0px 5px 0px;
-        }
-        
-        .bg {
-            position: absolute;
-            top: 9px;
-            left: 8px;
-            right: 8px;
-            bottom: 8px;
-            background-size: contain;
-        }
-        
-        .bar {
-            position: relative;
-            height: 2px;
-            background: #f9f5f5;
-            width: 0%;
-            top: 0px;
-            left: 18px;
-            margin-top: 8px;
-            animation: fill 1s infinite alternate,
-        }
-        
-        .bar.fill1:nth-child(1) {
-            animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
-            animation-delay: 0s;
-            /* transition: all 0.2 ease-in-out; */
-        }
-        
-        .bar.fill1:nth-child(2) {
-            animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
-            animation-delay: 0.2s;
-            margin-top: 5px;
-        }
-        
-        .bar.fill1:nth-child(3) {
-            animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
-            animation-delay: 0.3s;
-            margin-top: 5px;
-        }
-        
-        @keyframes fill-1 {
-            0% {
-                width: 15px;
-            }
-            100% {
-                width: 35px;
-            }
-        }
+       .hidden-bar-opener {
+           background: none;
+           border: none;
+           cursor: pointer;
+           padding: 0;
+           margin: 0;
+       }
+       
+       .hamburger {
+           display: inline-block;
+           width: 30px;
+           height: 50px;
+           position: relative;
+           padding: 5px 0px 5px 0px;
+       }
+       
+       .bg {
+           position: absolute;
+           top: 9px;
+           left: 8px;
+           right: 8px;
+           bottom: 8px;
+           background-size: contain;
+       }
+       
+       .bar {
+           position: relative;
+           height: 2px;
+           background: #f9f5f5;
+           width: 0%;
+           top: 0px;
+           left: 18px;
+           margin-top: 8px;
+           animation: fill 1s infinite alternate,
+       }
+       
+       .bar.fill1:nth-child(1) {
+           animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
+           animation-delay: 0s;
+           /* transition: all 0.2 ease-in-out; */
+       }
+       
+       .bar.fill1:nth-child(2) {
+           animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
+           animation-delay: 0.2s;
+           margin-top: 6px;
+       }
+       
+       .bar.fill1:nth-child(3) {
+           animation: fill-1 0.5s infinite alternate, 5s infinite alternate;
+           animation-delay: 0.3s;
+           margin-top: 6px;
+       }
+       
+       @keyframes fill-1 {
+           0% {
+               width: 15px;
+           }
+           100% {
+               width: 35px;
+           }
+       }
+       
+       .list-group-item {
+           background-color: black;
+           color: white;
+           text-align: center;
+           padding: 40px;
+       }

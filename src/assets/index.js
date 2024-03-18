@@ -36,6 +36,21 @@ import mg6 from './mg1.png';
 import mg7 from './mg2.png';
 import mg4 from './mg4.png';
 import mg5 from './mg5.png';
+import slidermg from './slidermg.jpg';
+import slidermg2 from './slidermg2.jpg';
+import slidermg3 from './slidermg3.jpg';
+import bgteam1 from './bgteam1.png';
+import bgteam2 from './bgteam2.png';
+import teamimg1 from './teamimg1.png';
+import teamimg2 from './teamimg2.png';
+import teamimg3 from './teamimg3.png';
+import facebook from './facebook.svg';
+import video from './watch.htm';
+import deliImg from './deliciousImg.png';
+import newmg1 from './newsImg1.jpg';
+import newmg2 from './newsImg2.jpg';
+import newmg3 from './newsImg3.jpg';
+
 export {
     location,
     bouncingImg1,
@@ -74,6 +89,20 @@ export {
     mg4,
     mg5,
     mg6,
-    mg7
+    mg7,
+    slidermg,
+    slidermg2,
+    slidermg3,
+    bgteam1,
+    bgteam2,
+    teamimg1,
+    teamimg2,
+    teamimg3,
+    facebook,
+    video,
+    deliImg,
+    newmg1,
+    newmg2,
+    newmg3
 
 }

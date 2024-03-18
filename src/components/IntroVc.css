@@ -1,0 +1,179 @@
+.intro-section {
+    background: black;
+    padding-bottom: 25px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.intro-section .image-layer {
+    background-attachment: fixed;
+    background-image: url("https://mediacity.co.in/delici/static/media/image-3.e321bbcd23fb672a86e4.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.intro-section .content-box {
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+    text-align: center;
+}
+
+.intro-section .content-box .play-btn {
+    display: block;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    width: 90px;
+}
+
+.intro-section .content-box .play-btn .theme-btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    font-size: 18px;
+    height: 90px;
+    line-height: 86px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+}
+
+.intro-section .separator {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.intro-section .separator span {
+    border: 1px solid rgb(211, 181, 125);
+    display: inline-block;
+    height: 8px;
+    margin: 0 1px;
+    position: relative;
+    transform: rotate(45deg);
+    vertical-align: middle;
+    width: 8px;
+}
+
+.playCircle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.953);
+}
+
+.playCircle:hover {
+    color: wheat;
+}
+
+.intro-section .content-box .play-btn .theme-btn:hover {
+    border-color: wheat;
+    color: wheat;
+}
+
+.intro-section .content-box .play-btn .ripple::before {
+    animation-delay: .9s;
+    content: "";
+    position: absolute;
+}
+
+.intro-section .content-box .play-btn .ripple::after {
+    animation-delay: .6s;
+    content: "";
+    position: absolute;
+}
+
+.intro-section .content-box .play-btn .ripple,
+.intro-section .content-box .play-btn .ripple::after,
+.intro-section .content-box .play-btn .ripple::before {
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    animation-delay: 0s;
+    border-radius: 50%;
+    -ms-box-shadow: 0 0 0 0 hsla(0, 0%, 100%, .6);
+    -o-box-shadow: 0 0 0 0 hsla(0, 0%, 100%, .6);
+    box-shadow: 0 0 0 0 hsla(0, 0%, 100%, .6);
+    height: 90px;
+    left: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: absolute;
+    top: 0;
+    width: 90px;
+}
+
+.intro-section .content-box h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: initial;
+    color: white;
+}
+
+.intro-section .content-box .auth-title {
+    color: rgb(222, 187, 123);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .3em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.intro-section .fact-counter {
+    margin-top: 70px;
+    padding-top: 75px;
+    position: relative;
+}
+
+.intro-section .fact-counter::before {
+    background: url(https://mediacity.co.in/delici/static/media/pattern-10.8584fd075420cc25392a.svg) 0 0 repeat;
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.intro-section .fact-counter .fact-block {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.intro-section .fact-counter .fact-count {
+    float: left;
+    position: relative;
+}
+
+.intro-section .fact-counter .count-box {
+    font-family: initial;
+    font-size: 60px;
+    line-height: 60px;
+    position: relative;
+    color: white;
+}
+
+.intro-section .fact-counter .count-box i {
+    font-style: normal;
+    color: white;
+}
+
+.intro-section .fact-counter .fact-title {
+    color: rgb(216, 184, 125);
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .4em;
+    line-height: 20px;
+    margin-left: 15px;
+    padding-top: 10px;
+    position: relative;
+    text-transform: uppercase;
+}

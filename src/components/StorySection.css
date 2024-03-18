@@ -1,6 +1,6 @@
 .story-section {
     background-color: rgba(0, 0, 0, 0.677);
-    padding-bottom: 210px;
+    padding-bottom: 2px;
     padding-top: 170px;
     position: relative;
 }
@@ -150,7 +150,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     overflow: hidden;
-    padding: 16px 45px;
+    padding: 17px 45px;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -301,14 +301,42 @@
     display: block;
     position: relative;
     z-index: 1;
-    width: 100%;
 }
 
-.story-section .image-col .images img {
-    display: block;
-    position: relative;
-    z-index: 1;
-    width: 100%;
+@media only screen and (max-width: 991px) {
+    .story-section .image-col .images img {
+        width: 60% !important;
+    }
+    .story-section .image-col .circle-text {
+        height: 90px;
+        width: 90px;
+    }
+    .story-section .image-col .round-stamp-circle {
+        height: 91.9px;
+        width: 91.5px;
+    }
+    .story-section .image-col .circle-text2 {
+        top: 14px;
+    }
+    .story-section .image-col .circle-since {
+        font-size: 10px;
+    }
+    .story-section .image-col .circle-date {
+        font-size: 20px;
+    }
+    .round-stamp-circle img {
+        position: relative;
+        top: -10px;
+        height: 113px;
+        width: 113px;
+        left: -10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .story-section .image-col .images img {
+        width: 90% !important;
+    }
 }
 
 .story-section .image-col .images .image:nth-child(2)::before {
@@ -323,7 +351,7 @@
 }
 
 .story-section .image-col .images .image:nth-child(2) {
-    bottom: -160px !important;
+    bottom: -160px;
     left: 0 !important;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -331,20 +359,4 @@
     top: auto !important;
     width: 285px;
     z-index: 2;
-}
-
-@media only screen and (max-width: 1199px) {
-    .story-section .image-col .images .image:nth-child(1) {
-        width: 374px;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    .story-section .image-col .images .image:nth-child(1) {
-        width: 374px;
-    }
-}
-
-.story-section .image-col .images .image:nth-child(1) {
-    width: 600px;
 }

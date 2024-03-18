@@ -7,7 +7,7 @@ import './responsive.css';
 
 const MenuSection = () => {
   const [activeTab, setActiveTab] = useState(0);
-  const [showData, setShowData] = useState(0); // Initialize showData with 0
+  const [showData, setShowData] = useState(0); 
 
   const handleTabClick = (index) => {
     setActiveTab(index);

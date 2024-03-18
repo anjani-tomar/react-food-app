@@ -73,7 +73,7 @@
     }
     
     .we-offer-section .row {
-        margin: 0 -75px;
+        /* margin: 0 -75px; */
         margin-top: -80px;
     }
     
@@ -191,7 +191,7 @@
     
     .offer-block .more-link a:hover::before {
         opacity: 1;
-        transform: scale(0.3, 1);
+        transform: scale(0.4, 1);
     }
     /* a:focus,
     a:hover,

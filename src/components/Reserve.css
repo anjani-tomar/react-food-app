@@ -114,11 +114,10 @@
 
 .default-form .form-group .link-box a {
     width: 100%;
-    float: inherit;
 }
 
 .default-form .form-group .btn-style-two .btn-wrap {
-    float: inherit;
+    float: left;
 }
 
 .reserve-section .reserv-col .inner {
@@ -262,4 +261,64 @@ ul {
     color: white;
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.default-form .field-inner .alt-icon,
+.default-form .field-inner .arrow-icon {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -15px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.default-form .field-inner .alt-icon {
+    left: 15px;
+}
+
+.opt1 {
+    overflow: visible;
+    background-color: rgba(31, 30, 30, 0.664);
+    border: 1px solid #ffffff27;
+    border-radius: 0px;
+    color: #ffffffbd;
+    transition: all .3s ease;
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.default-form .form-group select.l-icon {
+    padding: 5px 48px;
+    margin-top: 10px;
+    background-color: #2e0000c2;
+    border: none;
+    border-radius: 0px;
+    color: #ffffffbd;
+    width: 100%;
+    transition: all .3s ease;
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.default-form .form-group select option {
+    cursor: pointer;
+    padding-left: 20px;
+    text-indent: 20px;
+}
+
+.angle-down {
+    color: rgba(255, 255, 255, 0.922);
+    position: relative;
+    left: 133px;
+    font-size: 15px;
 }

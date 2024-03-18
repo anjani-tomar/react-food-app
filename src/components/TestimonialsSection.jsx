@@ -7,10 +7,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
-import 'swiper/css/navigation'; // Import navigation styles
+import 'swiper/css/navigation'; 
 import {  author_1, author_2, author_3 } from '../assets';
-import SwiperCore from 'swiper'; // Import Swiper core and required modules
-SwiperCore.use([Navigation , Pagination]); // Initialize Swiper core modules
+import SwiperCore from 'swiper'; 
+SwiperCore.use([Navigation , Pagination]);
 
 const TestimonialsSection = () => {
   return (
@@ -18,10 +18,10 @@ const TestimonialsSection = () => {
       <div className='image-layer'></div>
         <div className='container'>   
         <div className="tstmonl-sec1">
-            <Swiper
+          <Swiper
               slidesPerView={1}
               spaceBetween={30}
-              navigation={true} // Enable navigation
+              navigation={true}
               className="mySwiper"
               loop={true}
             >
@@ -63,13 +63,12 @@ const TestimonialsSection = () => {
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
-              navigation={true} // Enable navigation
+              navigation={true} 
               className="mySwiper"
               loop={true}
             >
-            <SwiperSlide> 
+              <SwiperSlide> 
                 <img src={author_1} alt="menu"/>
-                 
               </SwiperSlide>
               <SwiperSlide> 
                 <img src={author_2} alt="menu"/>
@@ -91,7 +90,6 @@ const TestimonialsSection = () => {
                 <img src={author_3} alt="menu"/>
               </SwiperSlide>
             </Swiper> 
-          
          </div> 
       </div>
     </section>

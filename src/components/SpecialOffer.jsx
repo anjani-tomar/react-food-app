@@ -32,6 +32,18 @@ const SpecialOffer = () => {
               navigation={true} // Enable navigation
               className="mySwiper"
               loop={true}
+              breakpoints={{
+                // when window width is >= 768px
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20
+                },
+                // when window width is >= 1024px
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 30
+                }
+              }}
             >
               <SwiperSlide className='mg'>
                 <div className='inner-box'>

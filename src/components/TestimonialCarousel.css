@@ -182,7 +182,7 @@
     .main .btn-style-two {
         position: absolute;
         color: #fff;
-        bottom: 15%;
+        bottom: 20%;
         left: 44%;
         transform: translateX(-50%);
         z-index: 99;
