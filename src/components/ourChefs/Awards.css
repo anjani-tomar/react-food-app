@@ -1,0 +1,81 @@
+.chef-section {
+    background: black;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.chef-section .right-bg {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.chef-section .image-col {
+    padding: 0;
+    position: relative;
+}
+
+.chef-section .image-col .inner {
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.chef-section .image-col .image {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.chef-section .image-col .image::before {
+    background: url('https://mediacity.co.in/delici/static/media/pattern-8.c0d26fdff7722980ba6f.svg') 50% repeat;
+    bottom: 0;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 250px;
+    transition: all .5s ease;
+    width: 140px;
+}
+
+.chef-section .image-col .image img {
+    display: block;
+    position: relative;
+}
+
+.chef-section .content-col {
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+
+.chef-section .content-col .inner {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.chef-section .content-col .author {
+    color: rgb(225, 192, 129);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    margin-top: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.chef-section .content-col .title-box .text {
+    padding-right: 100px;
+}
+
+.title-box .text {
+    line-height: 1.85em;
+    padding-top: 15px;
+    position: relative;
+}

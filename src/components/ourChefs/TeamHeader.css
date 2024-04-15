@@ -1,0 +1,19 @@
+.inner-banner {
+    background: black;
+    padding-bottom: 150px;
+    padding-top: 300px;
+    position: relative;
+}
+
+.inner-banner .image-layer {
+    background-image: url("https://mediacity.co.in/delici/static/media/banner-image-5.8b1686e443ab57acbc98.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

@@ -50,6 +50,10 @@ import deliImg from './deliciousImg.png';
 import newmg1 from './newsImg1.jpg';
 import newmg2 from './newsImg2.jpg';
 import newmg3 from './newsImg3.jpg';
+import dish from './specialDish.png';
+import mainchef from './mainchef.jpg';
+import bgchef from './bgchef.png';
+import chefsign from './chefsign.png';
 
 export {
     location,
@@ -103,6 +107,10 @@ export {
     deliImg,
     newmg1,
     newmg2,
-    newmg3
+    newmg3,
+    dish,
+    mainchef,
+    bgchef,
+    chefsign
 
 }

@@ -1,0 +1,21 @@
+    .intro-section.quote {
+        background: black;
+        padding-bottom: 200px;
+        padding-top: 200px;
+        position: relative;
+    }
+    
+    .intro-section.quote .image-layer {
+        background-image: url("https://mediacity.co.in/delici/static/media/image-12.3f0344deeeee988663d2.jpg");
+        background-attachment: fixed;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        left: 0;
+        opacity: .8;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    /*  */

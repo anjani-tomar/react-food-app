@@ -1,0 +1,54 @@
+.inner-banner .image-layer {
+    background-image: url("https://mediacity.co.in/delici/static/media/banner-image-1.6ae18acdd16dc62fbafb.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.inner-banner .inner {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+
+.inner-banner .inner .subtitle {
+    color: rgb(219, 182, 112);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .4em;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.inner-banner .pattern-image {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.inner-banner .inner h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0;
+    position: relative;
+    text-transform: none;
+    color: white;
+}
+
+.inner-banner .inner h1 span {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    font-family: initial;
+}

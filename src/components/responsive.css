@@ -14,11 +14,6 @@
                             }
                             
                             @media only screen and (max-width: 1499px) {
-                                .main-header .header-upper .links-box,
-                                .main-menu .navigation>li,
-                                .main-header .header-upper .links-box .link {
-                                    /*margin-left: 30px;*/
-                                }
                                 h2,
                                 .featured-section .text-col h2 {
                                     font-size: 50px;
@@ -96,9 +91,9 @@
                                     bottom: 15px;
                                     transform: scale(0.70);
                                 }
-                                .we-offer-section .row {
+                                /* .we-offer-section .row {
                                     margin: 0 -20px;
-                                }
+                                } */
                                 .we-offer-section .row .offer-block {
                                     padding-left: 20px;
                                     padding-right: 20px;
@@ -141,10 +136,10 @@
                                     padding-left: 15px;
                                     padding-right: 15px;
                                 }
-                                .team-section .row,
+                                /* .team-section .row,
                                 .news-section .row {
                                     margin: 0 -15px;
-                                }
+                                } */
                                 .inner-banner {
                                     padding-top: 200px;
                                     padding-bottom: 70px;
@@ -194,19 +189,20 @@
                                 .online-reservation .title-box .text.desc {
                                     padding: 0 100px;
                                 }
-                                .main .btn-style-two {
+                                /* .main .btn-style-two {
                                     position: absolute;
                                     left: 35% !important;
                                     bottom: 26% !important;
+                                } */
+                                .text2 {
+                                    font-size: 45px !important;
                                 }
-                            }
-                            
-                            .text2 {
-                                font-size: 45px !important;
-                            }
-                            
-                            .title-box {
-                                margin-bottom: 40px;
+                                .title-box {
+                                    margin-bottom: 40px;
+                                }
+                                .tstmonl-sec1 p {
+                                    font-size: 30px !important;
+                                }
                             }
                             
                             @media only screen and (min-width: 768px) {
@@ -250,7 +246,20 @@
                                     height: 50px;
                                 }
                                 .main .slider .slides h1 {
-                                    font-size: 64px !important;
+                                    font-size: 34px !important;
+                                }
+                                .main .slider .slides .subtitle {
+                                    font-size: 10px !important;
+                                }
+                                .main .slider .slides .title-box .pattern-image img {
+                                    max-width: 79px !important;
+                                }
+                                .main .slider .slides .text {
+                                    font-size: 13px !important;
+                                }
+                                .main .title-box .link-box {
+                                    position: relative !important;
+                                    top: 54px !important;
                                 }
                                 h2,
                                 .intro-section .content-box h3,
@@ -519,6 +528,9 @@
                                     padding-top: var(--padding-top-100);
                                     padding-bottom: var(--padding-bottom-100);
                                 }
+                                .tstmonl-sec1 p {
+                                    font-size: 20px !important;
+                                }
                             }
                             
                             @media only screen and (max-width: 767px) {
@@ -584,8 +596,8 @@
                                 .featured-links .link-block .text-block {
                                     height: 250px;
                                 }
-                                .featured-links .link-block .image-box .image-layer {
-                                    display: none;
+                                .tstmonl-sec1 p {
+                                    font-size: 18px !important;
                                 }
                                 .featured-links .link-block .image-box .image {
                                     display: block;
@@ -782,6 +794,10 @@
                                     left: 0;
                                     top: 0;
                                     margin: 0 auto 20px;
+                                }
+                                .main .title-box {
+                                    position: relative;
+                                    margin-top: 20px !important;
                                 }
                                 .services-section {
                                     padding-bottom: 20px;
